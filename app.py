@@ -4,7 +4,7 @@ from PIL import Image
 
 image = Image.open('image.png')
 
-col1, col2 = st.solumn(2)
+col1, col2 = st.solumns(2)
 
 col1.header("Instragram Profile Picture Downloader")
 col2.image(image)
