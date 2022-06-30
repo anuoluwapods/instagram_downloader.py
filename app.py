@@ -1,6 +1,6 @@
 import streamlit as st
 import instaloader
-from PIL import image
+from PIL import Image
 
 image = Image.open('image.png')
 
